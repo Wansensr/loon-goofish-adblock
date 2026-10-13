@@ -24,8 +24,11 @@ https://raw.githubusercontent.com/Wansensr/loon-goofish-adblock/main/Goofish-AdB
 `raw.githubusercontent.com` 连不上时用 jsDelivr 固定 commit 镜像（不用 `@main`，避免 CDN 缓存滞后）：
 
 ```
-https://cdn.jsdelivr.net/gh/Wansensr/loon-goofish-adblock@COMMIT_SHA/Goofish-AdBlock.plugin
+https://cdn.jsdelivr.net/gh/Wansensr/loon-goofish-adblock@7cfc1dcef40466201861716586a730044728df85/Goofish-AdBlock.plugin
 ```
+
+（固定 commit 的好处：jsDelivr 对 `@main` 有缓存，可能滞后几小时；钉住 commit 就永远是这一份。
+经典语法那份把文件名换成 `Goofish-AdBlock-classic.plugin` 即可。）
 
 ## 添加与更新
 
